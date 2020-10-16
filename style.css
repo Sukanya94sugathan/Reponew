@@ -1,0 +1,10 @@
+#main-header0{
+    background-color: darkseagreen;
+    border: 3px solid green;
+    background-image: url('./images/aaron-burden-0uF3L_5366s-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+}

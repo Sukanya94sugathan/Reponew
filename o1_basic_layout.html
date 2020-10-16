@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <meta name="description" content="Here everyone can make their website live">
+    <!--when searching for google results , this will appear right below the main heading of one of the search result-->
+    
+    <meta  name="keywords" content="web development, web design">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <title>Website for All</title><!--title shoud be the main heading-->
+
+</head>
+
+<!--commenting, em for italics, strong for bold-->
+<!-- shift+option +up will copy the elemnts to up -->
+<body>
+    <!--  command key plus question mark key will create this commenting space automatically--> 
+    <!-- command key plus enter key gives anew line no matter we were in the middle of the line or not -->
+    <p>Lorem ipsum dolor <strong> amet consectetur </strong>adipisicing velit. 
+        Possimus voluptates cumque, officiis eveniet dignissimos quae quis nesciunt ducimus excepturi. 
+        Doloremque <em>delectus earum qui? </em>Sapiente aliquid labore illo. Expedita laudantium quasi iste quisquam, e
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi odit impedit consequatur amet fugit, qui accusamus. 
+            <!-- hr tag puts an underline  -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis sunt nam quas natus voluptatem
+                quidem architecto soluta, pariatur blanditiis iste vitae sapiente autem ipsum nam voluptatibus fugit cum?
+                <a href="www.google.com">Click Here</a>          
+                <a href="https://google.com" target="_top">Click Here</a> 
+                <!-- option key + arrow key will scroll over through the content fast -->
+                <!--press shift+option + down arrow key will copy the content above to down  -->
+                <!-- target _blank opens the url in another tab, like that there is _parent and _top which overrides the content and dispalay the new url site -->
+             
+                <br>
+             <a href="/About.html">About Us</a>   
+             <img src="/images/aaron-burden-0uF3L_5366s-unsplash.jpg" width="200">
+             <img src="https://source.unsplash.com/1600x900/?nature,water" alt="my image" width="200">
+             <!-- source.unsplash is helpful for crteating live images  -->
+        
+
+        <ul>
+            <li> Home</li>
+            <li>exp</li>
+            <li></li>
+            <li></li>
+            <li></li><!--write li*4 and then hit tab gives 4 items-->
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <!-- nested structure -->
+        <ul>
+            <li>item 1</li>
+               <ul>
+                   <li>item3</li>
+                   <li>item3</li>
+
+               </ul>
+        </ul>
+
+
+        <!-- table creation- outdated -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>John</td>
+                    <td>John</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>John</td>
+                    <td>John</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- form -->
+        <form action="process.php">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Please enter your name here">
+            </div>
+
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                    <option value="select">--Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="birthday">Birthday</label><br>
+                <input type="date" name="birthdate" id="birthdate">
+            </div>
+            
+            <div>
+                <label for="memebership">Membership</label><br>
+                <input type="radio" name="membership" id="membership" value="Simple">Simple
+                <input type="radio" name="membership" id="membership" value="Premium" checked> Premium
+                <input type="radio" name="membership" id="membership" value="super">Super
+            </div>
+<!-- for selecting and changing the same texts in the multiple rpws , press and select on command key + d  -->
+            <div>
+            <label for="likings">I LIKE TO ..</label><br>
+            <input type="checkbox" name="likes" id="likes" value="car">Car
+            <input type="checkbox" name="likes" id="likes" value="auto">Auto
+            <input type="checkbox" name="likes" id="likes" value="bike">Bike
+        </div>
+        <!-- shift+tab for better alingnments of code -->
+        <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
